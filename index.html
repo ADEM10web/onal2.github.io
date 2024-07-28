@@ -1,0 +1,142 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/luffy96x96.png">
+    <title> my first website  </title>
+    </head>
+    <body>
+     <header style="background-color: cyan;">
+        <h1><span style="background-color:cyan;">this is my firs website</span> </h1>
+        <a style="color: black;" href="https://www.youtube.com/@BroCodez" title="goes to youtube">
+            special thx to bro code
+        </a>
+    </header>
+    <hr>
+    <hr>
+    <main>
+        <!--imgs-->
+        <p> this is luffy<br>wanna read more about luffy and one piece</p>
+        <a href="https://en.wikipedia.org/wiki/One_Piece" title="goes to wikipedia" target="_blank">
+            <img src="images/luffy.png" height="200">
+        </a>
+        <hr>
+        <h1>types of fruites in one piece </h1>
+        <h4>logia<a href="https://onepiece.fandom.com/wiki/Logia" target="_blank"><button>more </button></a></h4>
+        <!--unordered list-->
+        <ul>
+            <li>dark fruite</li>
+            <li>ice fruite</li>
+            <li>lava fruite</li>
+            <li>light fruite...</li>
+            <ul>
+                <li>Logia. The rarest and most powerful of the three Devil Fruit types, Logia-type Devil Fruits allow their users to create, control, and transform their body into a natural element, such as sand, mud, smoke, lightning, plant life, and even darkness.</li>
+            </ul>
+        </ul>
+        <!--ordered  list-->
+        <h4>paramicia<a href="https://onepiece.fandom.com/wiki/Paramecia" target="_blank"><button>more</button></a></h4>
+        <h4>top 3 strongest</h4>
+        <ol>
+           <li> Tremor-Tremor Fruit</li>
+           <li>Ope Ope no Mi</li>
+           <li>Nikyu Nikyu no Mi...</li>
+           <ul>
+            Overview. The defining aspect of Paramecia fruits, in basic terms, is that they grant any power other than the ability to transform into an animal like a Zoan or a natural element like a Logia. Thus, the Paramecia type encompasses a massive range of varying and peculiar abilities with their own strengths and weaknesses ..
+           </ul>
+           
+        </ol>
+        <!--description list-->
+        <h4><b>zoana fruites<a href="https://onepiece.fandom.com/wiki/Zoan" target="_blank"><button>more</button></a></b></h4>
+        <dl>
+            <dt><span style="background-color: gold;"> mythical Zoan</span></dt>
+            <dd>Mythical Zoan (「動物ゾオン系」幻獣種, Zōn-kei Genjūshu?, literally meaning "Animal System Mythical Beast Species") is a sub-class of Zoan abilities that allow users to transform into creatures that are the subject of myth and legend. Mythical Zoans are regarded as rarer than Logia-type Devil Fruits and, in accordance with this rarity, are considered by some to be the strongest Devil Fruit type.
+
+                Mythical Zoans demonstrate some of the most varied properties among Devil Fruits: on top of the transformation itself, most come with "mythical" abilities that are Paramecia-like in nature. Examples include the daibutsu Zoan's ability to project shockwaves, the phoenix Zoan's ability to heal using blue flames, and the nine-tailed fox Zoan's ability to transform into someone's lookalike (heavily resembling a certain Paramecia power). Some also allow the user to control elements, though these work differently to Logia-created ones—i.e., the user can only project the element, not transform into it, thus lacking the amorphous bodies of Logia users. Some Mythical Zoan users have demonstrated access to their special abilities without invoking their transformation; the Hito Hito no Mi, Model: Nika, in particular, permanently transforms the consumer's body into a rubbery state, akin to the lasting effects of certain body-altering Paramecias. Finally, a Mythical Zoan fruit may bestow more than just one special ability, e.g.: Kaidou is able to create and control different elements in his Azure Dragon form (fire, lightning, and wind), as well as conjure Flame Clouds to make himself and other things fly.
+                
+                </dd>
+            <dt><span style="background-color: cyan;">normal zoana fruites</span></dt>
+            <dd>its the same as the mythical but instead of transforming the user into a mythical creator it allows him to transform into a normal creator like birds or lion or normal animals</dd>
+            
+        </dl>
+        <a href="https://onepiece.fandom.com/"
+        target="_blank"
+        title="goes to wikifandom"><p>all the info from</p></a>
+
+        <hr>
+        <!--audios-->
+        <p>this is one piece intro <b>WE ARE</b></p>
+        <audio controls loop>
+            <source src="musics/one-piece_opening-1-we-are.mp3">
+        </audio>
+        
+        <!--videos-->
+        <h3> one piece episode 1112  <a href="https://w1.anime4up.cam/episode/one-piece-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-1113/" target="_blank" title="goes to anime4up"><button>more <b>one piece</b> episodes</button></a></h3>
+        <video src="videos/onepiece.mp4" width="900px" controls autoplay loop></video>
+
+
+       <hr>
+       <!--tables-->
+       <table border="1" style="background-color: black;">
+        <tr align="center" style="background-color: lightblue;">
+            <th width="100">sunday</th>
+            <th width="100">monday</th>
+            <th width="100">tuesday</th>
+            <th width="100">wednesday</th>
+            <th width="100">thirsday</th>
+            <th width="100">friday</th>
+            <th width="100">saturday</th>
+        </tr>
+        <tr align="center" style="background-color:aliceblue;">
+            <td>new anime ep</td>
+            <td>nothing</td>
+            <td>nothing</td>
+            <td>nothing</td>
+            <td>manga chapter</td>
+            <td>nothing</td>
+            <td>nothing</td>
+        </tr>
+       </table>
+     <!--button-->
+       <button id="playButton" style="font-size: 25px; background-color: red; border-radius: 15px;">click me</button>
+       <audio id="audio" src="musics/gomu-gomu-no.mp3"></audio>
+
+       <script>
+        document.getElementById('playButton').addEventListener('click', function() {
+            var audio = document.getElementById('audio');
+            audio.play();
+        });
+    </script>
+    <hr>
+
+      <!--form-->
+      <form action="index.php" method="post">
+                  <label for="email">email</label>
+          <input type="email" id="email" placeholder="example@gmail.com" required><br>
+          
+          <label for="username">username</label>
+         <input type="text" id="username" placeholder="enter the username" minlength="3" required><br>
+         
+          <label for="password">password</label>
+          <input type="password" id="password" placeholder="enter password" minlength="3" required><br>
+
+
+         <input type="submit">
+         <input type="reset">
+        
+
+
+      </form>
+      <hr>
+      <hr>
+    </main>
+    <footer style="background-color: cyan;">
+        all of this was just for learning purposes<br>
+        &copy;idk why i added This <br>
+        and also thx to <a style="color: black;" href="https://www.youtube.com/watch?v=HGTJBPNC-Gw&t=2468s">bro code</a><br>
+        for the free leason
+    </footer>
+    </body>
+</html>
